@@ -1,4 +1,3 @@
-<?php include 'config.php'?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,8 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!--<title>Clean Blog - Start Bootstrap Theme</title> -->
-      <title><?= $title ?></title>
+    <title>Clean Blog - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
