@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title><?=$title?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -39,10 +39,10 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="db_test.php">Database Test</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="post.html">Sample Post</a>
+              <a class="nav-link" href="daily.php">Daily</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.php">Contact</a>
@@ -59,8 +59,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
-              <h1>Clean Blog</h1>
-              <span class="subheading">A Blog Theme by Start Bootstrap</span>
+              <h1><?=$siteName?></h1>
+              <span class="subheading"><h1><?=$slogan?><?=$sloganIcon?></h1></span>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
         <div class="page-heading">
-              <h1>Page Heading Goes Here!</h1>
-              <span class="subheading">Clever comment here!</span>
+              <h1><?=$pageHeader?></h1>
+              <span class="subheading"><?=$subHeader?></span>
         </div>
           <!-- header ends here -->
